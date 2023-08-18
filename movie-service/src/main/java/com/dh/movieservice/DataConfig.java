@@ -26,13 +26,5 @@ public class DataConfig implements ApplicationRunner {
         Movie saveMovie = movieRepository.save(movie);
         Movie managedMovie = new Movie();
         managedMovie.setId(saveMovie.getId());
-
-        Movie movie2 = new Movie();
-        movie.setName("Batman");
-        movie.setGenre("Accion");
-        movie.setUrlStream("www.batman.com");
-        Movie saveMovie2 = movieRepository.save(movie);
-        Movie managedMovie2 = new Movie();
-        managedMovie.setId(saveMovie.getId());
     }
 }
