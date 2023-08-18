@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AnaMariaGalarza/simulacroConfiguration.git
+          default-label: main
+
+server:
+  port: ${PORT:8888}
