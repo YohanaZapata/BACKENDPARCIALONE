@@ -1,0 +1,12 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: conf-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/alpadev44/config_server_parcial/tree/main
+
