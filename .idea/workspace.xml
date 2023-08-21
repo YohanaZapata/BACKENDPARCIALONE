@@ -5,52 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cd45df2-99a2-4e4d-914d-3010ad8f8f3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eureka/src/main/java/com/dhana/eureka/EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gateway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gateway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gateway/src/main/java/com/pruebasana/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gateway/src/test/java/com/pruebasana/gateway/GatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/client/IMovieClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/controller/CatalogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/model/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/catalog-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/eureka-server.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/gateway.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/movie-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/CatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/CatalogServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/DataConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/example/eurekaserver/EurekaServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/test/java/com/example/eurekaserver/EurekaServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka/src/test/java/com/dhana/eureka/EurekaApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/DataConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/model/Data/DataConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/MovieServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/MovieServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/controller/MovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/model/Entity/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/repository/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/repository/MovieRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/service/MovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/src/main/java/com/dhana/eureka/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/example/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/src/test/java/com/dhana/eureka/EurekaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/example/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/src/main/java/com/pruebasana/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/src/test/java/com/pruebasana/gateway/GatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/test/java/com/example/gateway/GatewayApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
