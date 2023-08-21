@@ -28,6 +28,6 @@ public class MovieController {
 
     @PostMapping("/save")
     ResponseEntity<Movie> saveMovie(@RequestBody Movie movie) {
-        return ResponseEntity.ok().body(movieService.save(movie));
+        return ResponseEntity.ok((movieService.save(movie)));
     }
 }

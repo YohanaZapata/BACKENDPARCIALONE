@@ -7,6 +7,8 @@
     <list default="true" id="8450121d-e8b7-4cca-bfc1-9fad6d9c344c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/client/IMovieClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/client/IMovieClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/controller/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/controller/CatalogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/controller/MovieController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
     "last_opened_file_path": "/Users/alpa.dev/Desktop/backAlejandroP"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CatalogServiceApplication">
+  <component name="RunManager" selected="Application.GatewayApplication">
     <configuration name="CatalogServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dh.catalogservice.CatalogServiceApplication" />
       <module name="catalog-service" />
@@ -106,8 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CatalogServiceApplication" />
         <item itemvalue="Application.GatewayApplication" />
+        <item itemvalue="Application.CatalogServiceApplication" />
         <item itemvalue="Application.MovieServiceApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
         <item itemvalue="Application.ConfigServerApplication" />
