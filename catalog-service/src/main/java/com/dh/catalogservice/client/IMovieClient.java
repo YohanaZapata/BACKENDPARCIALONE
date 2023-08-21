@@ -13,6 +13,6 @@ import java.util.List;
 @FeignClient("movie-service")
 @LoadBalancerClient(name = "movie-service", configuration = CustomLoadBalancerConfiguration.class)
 public interface IMovieClient {
-    @GetMapping("/{genre}")
+    @GetMapping("/api/v1/movies/{genre}")
     ResponseEntity<List<Movie>> getMovieByGenre(@PathVariable String genre);
 }
