@@ -1,4 +1,4 @@
-package com.anapruebitas.configserver;
+package com.parcial.configserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
