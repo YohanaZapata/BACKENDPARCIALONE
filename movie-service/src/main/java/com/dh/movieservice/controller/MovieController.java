@@ -1,6 +1,6 @@
 package com.dh.movieservice.controller;
 
-import com.dh.movieservice.model.Movie;
+import com.dh.movieservice.model.Entity.Movie;
 import com.dh.movieservice.service.MovieService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -28,6 +28,6 @@ public class MovieController {
 
     @PostMapping("/save")
     ResponseEntity<Movie> saveMovie(@RequestBody Movie movie) {
-        return ResponseEntity.ok().body(movieService.save(movie));
+        return ResponseEntity.ok((movieService.save(movie)));
     }
 }
