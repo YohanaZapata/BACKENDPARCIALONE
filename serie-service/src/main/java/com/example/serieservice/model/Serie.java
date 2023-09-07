@@ -25,6 +25,9 @@ public class Serie {
     private String genre;
     private List<Season> seasons = new ArrayList<>();
 
+    public Serie(String string, String serieA, String terror, List<Season> serieASeasons) {
+    }
+
     @AllArgsConstructor
     @NoArgsConstructor
     @Setter
@@ -33,6 +36,9 @@ public class Serie {
 
         private Integer seasonNumber;
         private List<Chapter> chapters = new ArrayList<>();
+
+        public Season(int i, List<Chapter> serieASeasonAChapters) {
+        }
 
         @AllArgsConstructor
         @NoArgsConstructor
@@ -45,6 +51,8 @@ public class Serie {
             private String urlStream;
 
 
+            public Chapter(String chapterA, int i, String s) {
+            }
         }
 
     }
