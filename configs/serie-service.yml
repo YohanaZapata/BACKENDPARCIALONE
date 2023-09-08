@@ -1,20 +1,14 @@
-server:
-  port: ${PORT:${SERVER_PORT:0}}
-
 spring:
-  application:
-    name: movie-service
-  datasource:
-    driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3370/movie-dev
-    username: usr-movie
-    password: pwd-movie
-  jpa:
-    hibernate.ddl-auto: update
-    generate-ddl: true
-    show-sql: true
+  mongodb:
+    embedded:
+      version: 4.0.2
+  data:
+    mongodb:
+      database: test
+      port: 27018
+server:
+  port: 0
 
-message: "hello world"
 
 eureka:
   client:
@@ -35,4 +29,4 @@ zipkin:
   base-url: http://localhost:9411/
   enabled: true
 application:
-    name: movie-service
+  name: serie-service

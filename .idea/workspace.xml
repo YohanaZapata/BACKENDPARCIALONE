@@ -4,17 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58f64a18-5193-44c9-8635-b06fe2acf395" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/backAlejandroP.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="22afc06c-c484-48a0-9a85-ece0830dc629" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/config/RabbitMQSenderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/config/RabbitTempleteConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/queue/SerieSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/serie-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/config/RabbitTempleteConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/queue/MovieListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/core/config/RabbitTempleteConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/queue/SerieListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/catalog-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/movie-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/movie-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serie-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/model/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/model/Serie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serie-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,19 +27,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2V2K9iNgXsy62xpcSO4S5Wmw1hx" />
+  <component name="ProjectId" id="2V57QVCmVQmtNvsWIVvptVNzKze" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,24 +53,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Yohana Zapata/OneDrive/Desktop/DIGH/ESPECIALIZACION BACK/BACKEND1/clase 14/clase en vivo",
+    "last_opened_file_path": "C:/Users/Yohana Zapata/OneDrive/Desktop/DIGH/ESPECIALIZACION BACK/BACKEND1/ParcialFinal/BACKENDPARCIALONE/serie-service/src/main/java/com/example/serieservice",
     "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EurekaServerApplication">
-    <configuration name="CatalogServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dh.catalogservice.CatalogServiceApplication" />
-      <module name="catalog-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dh.catalogservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal\BACKENDPARCIALONE\serie-service\src\main\java\com\example\serieservice" />
+      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal\BACKENDPARCIALONE\movie-service\src\main\java\com\dh\movieservice" />
+      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal\BACKENDPARCIALONE\configs" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.eurekaserver.EurekaServerApplication" />
       <module name="eureka-server" />
@@ -77,18 +81,17 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.EurekaServerApplication" />
-        <item itemvalue="Application.CatalogServiceApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="58f64a18-5193-44c9-8635-b06fe2acf395" name="Changes" comment="" />
-      <created>1694028585647</created>
+      <changelist id="22afc06c-c484-48a0-9a85-ece0830dc629" name="Changes" comment="" />
+      <created>1694114072317</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1694028585647</updated>
+      <updated>1694114072317</updated>
     </task>
     <servers />
   </component>
