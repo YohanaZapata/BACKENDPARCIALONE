@@ -5,22 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22afc06c-c484-48a0-9a85-ece0830dc629" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/config/RabbitMQSenderConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/config/RabbitTempleteConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/queue/SerieSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/serie-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/config/RabbitTempleteConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/queue/MovieListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/core/config/RabbitTempleteConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/queue/SerieListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/catalog-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/movie-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/movie-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serie-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serie-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigServer/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/catalog-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/eureka-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/eureka-server.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/gateway.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/gateway.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/movie-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/resources/movie-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/serie-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/src/main/resources/serie-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/model/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/model/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/src/main/resources/application.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +47,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Yohana Zapata/OneDrive/Desktop/DIGH/ESPECIALIZACION BACK/BACKEND1/ParcialFinal/BACKENDPARCIALONE/serie-service/src/main/java/com/example/serieservice",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yohana Zapata/OneDrive/Desktop/DIGH/ESPECIALIZACION BACK/BACKEND1/ParcialFinal/BACKENDPARCIALONE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal\BACKENDPARCIALONE\serie-service\src\main\java\com\example\serieservice" />
       <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal\BACKENDPARCIALONE\movie-service\src\main\java\com\dh\movieservice" />
       <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal\BACKENDPARCIALONE\configs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal\BACKENDPARCIALONE\ConfigServer\src\main\resources" />
+      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal\BACKENDPARCIALONE\serie-service\src\main\resources" />
+      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal\BACKENDPARCIALONE\movie-service\src\main\resources" />
+      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal\BACKENDPARCIALONE\gateway\src\main\resources" />
+      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal\BACKENDPARCIALONE\eureka-server\src\main\resources" />
     </key>
   </component>
   <component name="RunManager">

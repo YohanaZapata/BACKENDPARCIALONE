@@ -25,9 +25,6 @@ public class Serie {
     private String genre;
     private List<Season> seasons = new ArrayList<>();
 
-    public Serie(String string, String serieA, String terror, List<Season> serieASeasons) {
-    }
-
     @AllArgsConstructor
     @NoArgsConstructor
     @Setter
