@@ -3,6 +3,7 @@ package com.example.serieservice.service;
 import com.example.serieservice.model.Serie;
 import com.example.serieservice.repository.SerieRepository;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -24,12 +25,16 @@ public class SerieService {
         return repository.findAll();
     }
 
+    @Transactional(readOnly = true)
     public List<Serie> getSeriesBygGenre(String genre) {
         return repository.findAllByGenre(genre);
     }
 
-    public String create(Serie serie) {
-        repository.save(serie);
-        return serie.getId();
+
+
+    public void save(Serie seri) {
+    }
+
+    public void create(Serie serie) {
     }
 }

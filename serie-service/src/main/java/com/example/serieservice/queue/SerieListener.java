@@ -5,16 +5,18 @@ import com.example.serieservice.model.Serie;
 import com.example.serieservice.service.SerieService;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
-import java.util.logging.Logger;
+
 
 @Component
 public class SerieListener {
 
-    private final SerieService serieService;
-    public SerieListener(Serieservice service) { this.service = service; }
+    private final SerieService service;
+    public SerieListener(SerieService service) { this.service = service; }
     private static final Logger LOGGER = LoggerFactory.getLogger(SerieListener.class);
 
     @RabbitListener(queues = {"${queue.serie.name"})

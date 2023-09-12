@@ -9,4 +9,8 @@ public class RabbitMQSenderConfig {
 
     @Value("${queue.serie.name}")
     private String serieQueue;
+
+    public String getSerieQueue() {
+        return serieQueue;
+    }
 }
