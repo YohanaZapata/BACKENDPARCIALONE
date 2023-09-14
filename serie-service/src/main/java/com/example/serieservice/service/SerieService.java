@@ -30,11 +30,8 @@ public class SerieService {
         return repository.findAllByGenre(genre);
     }
 
-
-
-    public void save(Serie seri) {
+    public void save(Serie serie) {
+        repository.save(serie);
     }
 
-    public void create(Serie serie) {
-    }
 }
