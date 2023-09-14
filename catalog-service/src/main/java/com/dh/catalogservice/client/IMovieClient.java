@@ -1,6 +1,7 @@
 package com.dh.catalogservice.client;
 
 import com.dh.catalogservice.FeignConfiguration.CustomLoadBalancerConfiguration;
+
 import com.dh.catalogservice.model.Movie;
 import org.springframework.cloud.loadbalancer.annotation.LoadBalancerClient;
 import org.springframework.cloud.openfeign.FeignClient;

@@ -2,9 +2,10 @@ package com.dh.catalogservice.controller;
 
 import com.dh.catalogservice.client.IMovieClient;
 import com.dh.catalogservice.client.ISerieClient;
+
+
 import com.dh.catalogservice.model.Movie;
 import com.dh.catalogservice.model.Serie;
-import feign.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -30,12 +31,12 @@ public class CatalogController {
         return movieClient.saveMovie(movie);
     }
 
-    @GetMapping("/catalog/{genre}")
+    @GetMapping("/catalog2/{genre}")
     public ResponseEntity<List<Serie>> getCatalogByGenre2(@PathVariable String genre) {
-        return serieClient.getSerieByGenre(genre);
+        return serieClient.getSerieByGenre2(genre);
     }
 
-    @PostMapping("/catalog/save")
+    @PostMapping("/catalog2/save")
     ResponseEntity<Serie> saveSerie(@RequestBody Serie serie){
         return serieClient.saveSerie(serie);
     }

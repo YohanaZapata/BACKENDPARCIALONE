@@ -2,6 +2,7 @@ package com.dh.catalogservice.client;
 
 
 import com.dh.catalogservice.FeignConfiguration.CustomLoadBalancerConfiguration;
+
 import com.dh.catalogservice.model.Serie;
 import org.springframework.cloud.loadbalancer.annotation.LoadBalancerClient;
 import org.springframework.cloud.openfeign.FeignClient;
@@ -17,7 +18,7 @@ import java.util.List;
 @LoadBalancerClient(name = "serie-service", configuration = CustomLoadBalancerConfiguration.class)
 public interface ISerieClient {
     @GetMapping("/api/v1/series/{genre}")
-    ResponseEntity<List<Serie>> getSerieByGenre(@PathVariable String genre);
+    ResponseEntity<List<Serie>> getSerieByGenre2(@PathVariable String genre);
 
     @PostMapping("/api/v1/series/save")
     ResponseEntity<Serie> saveSerie(@RequestBody Serie serie);

@@ -34,4 +34,8 @@ public class SerieService {
         repository.save(serie);
     }
 
+    public void create(Serie serie) {
+        repository.save(serie);
+    }
+
 }

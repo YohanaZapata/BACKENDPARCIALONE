@@ -1,7 +1,10 @@
 package com.dh.catalogservice.queue;
 
-import com.example.serieservice.model.Serie;
-import com.example.serieservice.service.SerieService;
+
+
+import com.dh.catalogservice.Repository.ISerieRepository;
+
+import com.dh.catalogservice.model.Serie;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
@@ -11,14 +14,14 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class SerieListenner {
-    private final SerieService service;
+    private final ISerieRepository service;
     private static final Logger LOGGER = LoggerFactory.getLogger(SerieListenner.class);
 
-    public SerieListenner(SerieService service) {
+    public SerieListenner(ISerieRepository service) {
         this.service = service;
     }
 
-    @RabbitListener(queues = {"${queue.serie.name"})
+    @RabbitListener(queues = {"${queue.serie.name}"})
     public void receive(@Payload Serie serie) {
         try{
             Thread.sleep(1000);

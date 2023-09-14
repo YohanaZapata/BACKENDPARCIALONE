@@ -4,19 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22afc06c-c484-48a0-9a85-ece0830dc629" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="91ca4ee6-319b-41a1-9764-448f05933d51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/Repository/IMovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/Repository/ISerieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/config/RabbitTemplates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/applicationCat.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/applicationEur.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/applicationMovi.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/applicationSerie.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/applicationgatw.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/gateway.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serie-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/client/IMovieClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/client/IMovieClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/client/ISerieClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/client/ISerieClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/controller/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/controller/CatalogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/model/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/model/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/queue/MovieListenner.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/queue/MovieListenner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/queue/SerieListenner.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/queue/SerieListenner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/config/RabbitMQSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/config/RabbitSenderConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/movieSender/MovieSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/movieSender/MovieSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/queue/MovieListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/repository/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/dh/movieservice/repository/MovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/config/RabbitMQSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/config/RabbitSenderConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/controller/SerieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/controller/SerieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/core/config/RabbitTempleteConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/core/config/RabbitTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/queue/SerieListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/service/SerieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/service/SerieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/target/classes/com/example/serieservice/controller/SerieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/target/classes/com/example/serieservice/controller/SerieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/target/classes/com/example/serieservice/service/SerieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/target/classes/com/example/serieservice/service/SerieService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +43,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -38,41 +54,27 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="2V57QVCmVQmtNvsWIVvptVNzKze" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2VOa6eSa61cnLvYxA8y7dpVNgMh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "ParcialFinal",
-    "last_opened_file_path": "C:/Users/Yohana Zapata/OneDrive/Desktop/DIGH/ESPECIALIZACION BACK/BACKEND1/ParcialFinal1/BACKENDPARCIALONE/serie-service/src/main/resources",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ParcialFinal&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alpa.dev/Desktop/backend3/BACKENDPARCIALONE&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal1\BACKENDPARCIALONE\serie-service\src\main\resources" />
-      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal1\BACKENDPARCIALONE\movie-service\src\main\resources" />
-      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal1\BACKENDPARCIALONE\gateway\src\main\resources" />
-      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal1\BACKENDPARCIALONE\catalog-service\src\main\resources" />
-      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal\BACKENDPARCIALONE\serie-service\src\main\java\com\example\serieservice" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal\BACKENDPARCIALONE\ConfigServer\src\main\resources" />
-      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal\BACKENDPARCIALONE\serie-service\src\main\resources" />
-      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal\BACKENDPARCIALONE\movie-service\src\main\resources" />
-      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal\BACKENDPARCIALONE\gateway\src\main\resources" />
-      <recent name="C:\Users\Yohana Zapata\OneDrive\Desktop\DIGH\ESPECIALIZACION BACK\BACKEND1\ParcialFinal\BACKENDPARCIALONE\eureka-server\src\main\resources" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.EurekaServerApplication">
+}</component>
+  <component name="RunManager" selected="Application.CatalogServiceApplication">
     <configuration name="CatalogServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dh.catalogservice.CatalogServiceApplication" />
       <module name="catalog-service" />
@@ -86,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.parcial.configserver.ConfigServerApplication" />
-      <module name="ConfigServer" />
+    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.eurekaserver.EurekaServerApplication" />
+      <module name="eureka-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.parcial.configserver.*" />
+          <option name="PATTERN" value="com.example.eurekaserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.eurekaserver.EurekaServerApplication" />
-      <module name="eureka-server" />
+    <configuration name="GatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.gateway.GatewayApplication" />
+      <module name="gateway" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.eurekaserver.*" />
+          <option name="PATTERN" value="com.example.gateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,22 +142,22 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EurekaServerApplication" />
-        <item itemvalue="Application.ConfigServerApplication" />
+        <item itemvalue="Application.CatalogServiceApplication" />
         <item itemvalue="Application.MovieServiceApplication" />
         <item itemvalue="Application.SerieServiceApplication" />
-        <item itemvalue="Application.CatalogServiceApplication" />
+        <item itemvalue="Application.GatewayApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="22afc06c-c484-48a0-9a85-ece0830dc629" name="Changes" comment="" />
-      <created>1694114072317</created>
+      <changelist id="91ca4ee6-319b-41a1-9764-448f05933d51" name="Changes" comment="" />
+      <created>1694709406529</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1694114072317</updated>
+      <updated>1694709406529</updated>
     </task>
     <servers />
   </component>

@@ -16,6 +16,7 @@ public class MovieSender {
     }
 
     public void send(Movie movie) {
+
         this.rabbitTemplate.convertAndSend(this.movieQueue.getName(), movie);
     }
 }
