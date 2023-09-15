@@ -38,8 +38,8 @@ public class CatalogController {
 
 
     @PostMapping("/catalog/save")
-    ResponseEntity<Movie> saveMovie(@RequestBody Movie movie){
-        return ResponseEntity.ok(movieService.saveMovieService(movie)).getBody();
+    Movie saveMovie(@RequestBody Movie movie){
+        return movieService.saveMovieService(movie);
     }
 
     @GetMapping("/catalog/find/{genre}")

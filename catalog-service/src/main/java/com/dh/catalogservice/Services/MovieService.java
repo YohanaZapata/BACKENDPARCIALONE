@@ -28,15 +28,15 @@ public class MovieService {
 
     @CircuitBreaker(name = "saveMovieService", fallbackMethod = "saveError")
     @Retry(name = "saveMovieService")
-    public ResponseEntity<Movie> saveMovieService(Movie movie) {
+    public Movie saveMovieService(Movie movie) {
         return movieClient.saveMovie(movie);
     }
 
 
-    public ResponseEntity<Movie> saveError(Movie movie, CallNotPermittedException exception)
+    public Movie saveError(Movie movie, CallNotPermittedException exception)
     {
         Movie movie2 = movieRepository.save(movie);
         log.info("FallBack -> Save error");
-        return ResponseEntity.ok(movie2);
+        return movie2;
     }
 }

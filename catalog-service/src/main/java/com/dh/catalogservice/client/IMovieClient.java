@@ -20,5 +20,5 @@ public interface IMovieClient {
     ResponseEntity<List<Movie>> getMovieByGenre(@PathVariable String genre);
 
     @PostMapping("/api/v1/movies/save")
-    ResponseEntity<Movie> saveMovie(@RequestBody Movie movie);
+    Movie saveMovie(@RequestBody Movie movie);
 }
