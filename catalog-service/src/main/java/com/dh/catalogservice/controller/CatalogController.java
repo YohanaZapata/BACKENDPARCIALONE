@@ -1,5 +1,7 @@
 package com.dh.catalogservice.controller;
 
+import com.dh.catalogservice.Repository.IMovieRepository;
+import com.dh.catalogservice.Repository.ISerieRepository;
 import com.dh.catalogservice.client.IMovieClient;
 import com.dh.catalogservice.client.ISerieClient;
 
@@ -20,10 +22,15 @@ public class CatalogController {
     @Autowired
     private ISerieClient serieClient;
 
+    @Autowired
+    private IMovieRepository movieRepository;
+    @Autowired
+    private ISerieRepository serieRepository;
+
 
     @GetMapping("/catalog/{genre}")
     public ResponseEntity<List<Movie>> getCatalogByGenre(@PathVariable String genre) {
-        return movieClient.getMovieByGenre(genre);
+        return ResponseEntity.ok(movieRepository.findByGenre(genre));
     }
 
     @PostMapping("/catalog/save")
@@ -31,12 +38,12 @@ public class CatalogController {
         return movieClient.saveMovie(movie);
     }
 
-    @GetMapping("/catalog2/{genre}")
+    @GetMapping("/catalog/find/{genre}")
     public ResponseEntity<List<Serie>> getCatalogByGenre2(@PathVariable String genre) {
-        return serieClient.getSerieByGenre2(genre);
+        return ResponseEntity.ok(serieRepository.findByGenre(genre));
     }
 
-    @PostMapping("/catalog2/save")
+    @PostMapping("/catalog/saveSerie")
     ResponseEntity<Serie> saveSerie(@RequestBody Serie serie){
         return serieClient.saveSerie(serie);
     }
