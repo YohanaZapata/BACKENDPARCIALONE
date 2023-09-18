@@ -1,6 +1,7 @@
 package com.dh.catalogservice.client;
 
 import com.dh.catalogservice.FeignConfiguration.CustomLoadBalancerConfiguration;
+
 import com.dh.catalogservice.model.Movie;
 import org.springframework.cloud.loadbalancer.annotation.LoadBalancerClient;
 import org.springframework.cloud.openfeign.FeignClient;
@@ -19,5 +20,5 @@ public interface IMovieClient {
     ResponseEntity<List<Movie>> getMovieByGenre(@PathVariable String genre);
 
     @PostMapping("/api/v1/movies/save")
-    ResponseEntity<Movie> saveMovie(@RequestBody Movie movie);
+    Movie saveMovie(@RequestBody Movie movie);
 }
